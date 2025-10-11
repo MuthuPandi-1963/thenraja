@@ -4,7 +4,7 @@ const TodoSchema = new Schema({
     name : {
         type : String,
         required : true,
-        minLength : 20,
+        minLength : 8,
         // unique : true
     },
     des : {

@@ -10,7 +10,8 @@ export const createTodo = async (req,res)=>{
         })
        return res.status(201).json({
         message : "data collected",
-        data : newTodo
+        data : newTodo,
+        success : true
        })
        
     } catch (error) {

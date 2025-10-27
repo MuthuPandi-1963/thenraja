@@ -35,6 +35,7 @@ export const updateTodo = async(req,res)=>{
         console.log(updatedTodo);
         
         return res.status(200).json({
+            success : true,
             message : "todo  updated successfully",
             data : updatedTodo
         })
